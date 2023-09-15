@@ -1,0 +1,107 @@
+#slider{
+    background: #F8F8FF;
+}
+.slider-heading h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #141135;
+    padding: 150px 0 140px 0;
+}
+.testimonial{
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.30);
+    margin-bottom: 60px;
+}
+.test-img{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* .test-img{
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    background: #000;
+} */
+/* .test-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+/* .img-fluid {
+	max-width: 100%;
+} */
+.test-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
+.test-star .stars{
+    height: 24px;
+    width: 24px;
+    background: #FF7628;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.test-text p{
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #726E9E;
+    line-height: 40px;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.test-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #221A2C;
+    padding-bottom: 20px;
+}
+.test-text h4{
+    font-family: 'Paprika', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #726E9E;
+    padding-bottom: 60px;
+}
+.prev-arrow {
+	position: absolute;
+	top: 50%;
+	left: -80px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: rgba(25, 191, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+.next-arrow {
+	position: absolute;
+	top: 50%;
+	right: -80px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #1BBF00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+.prev-arrow h3{
+    margin-top: -8px;
+}
+.next-arrow h3{
+    margin-top: -10px;
+}
